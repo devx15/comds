@@ -1,0 +1,18 @@
+/* if we use class we have to give a dot  */
+/* * selects the whole html code  */
+
+h2  {
+    color:aquamarine
+}
+.navbar{
+    color:rgb(183, 40, 116)
+}
+*{
+     font: size 40px; ;
+}
+ul>li{
+    color:blueviolet
+}
+.nav-bar li:nth-child(1){
+    color :yellowgreen
+}

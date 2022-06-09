@@ -1,0 +1,53 @@
+<!-- write the same in id as u write in for -->
+<!-- label tells the heading like name email etc -->
+<!-- in input we give the input like we write our name  -->
+<!-- without div name email and password will come in same line  -->
+<!-- form is used to collect user input -->
+<!-- textarea is use to give extra space to write a text  -->
+<!-- select is used to select the option  -->
+<!-- option is use to give th option -->
+<!-- input type radio gives the dot option  -->
+<!-- input type checkbox gives the tick option  -->
+<!-- placeholder is used to show a light version where data is input  -->
+<!-- required is used to get the most required input without it u cant submit  -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>best developer ever</title>
+    </head>
+    <body>
+         <form action="my.php">
+             <div>
+                 <label for="name:">name</label><br>
+                 <input type="text" name="name" id="name:" placeholder="name" required>      
+             </div>
+             <div>
+                 <label for="email:">email</label><br>
+                 <input type="email" name="email" id="email" required>      
+             </div>
+             <div>
+                 <label for="password:">password</label><br>
+                 <input type="password" name="password" id="password">      
+             </div>
+             <div>
+                 <label for="message">message</label><br>
+                 <textarea name="message" id="message"></textarea>
+
+             </div>
+             <div>
+                 <label>pricing</label>
+                 <select>
+                     <option>10$</option>
+                     <option>20$</option>
+                     <option>30$</option>
+                 </select>
+             </div>
+             <label>membership</label>
+             <input type="radio" name="plus">plus
+             <input type="radio" name="pro">pro
+             <input type="radio" name="plus pro">plus pro
+             <input type="submit">
+         </form>
+    </body>
+</html>

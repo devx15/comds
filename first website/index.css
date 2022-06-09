@@ -1,0 +1,204 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&family=Tapestry&family=Water+Brush&display=swap');
+/* font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Water Brush', cursive;
+font-family: 'Topestry', cursive;*/
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+} 
+
+body{
+    background: url(45.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position-x: 0;
+    background-position-y: 0;
+    
+
+}
+
+
+.navbar{
+    background-color: rgb(4, 4, 4);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+   
+    position: sticky;
+    top: 0rem;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+ list-style :none;
+}
+
+.navbar ul li a{
+    color: white;
+  display: flex;
+  text-decoration: none;
+  padding: 1rem;
+   font-family: 'Lobster', cursive;
+}
+
+.navbar ul li a:hover{
+    background: #00a8ad;
+}
+
+.logo{
+    font-family: 'Water Brush', cursive;
+}
+
+.color-text{
+    color: #00a8ad;
+}
+
+.header{
+    background: url('45.jpg');
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+}
+.header div{
+    color:white;
+    background:rgba(0, 0,0, 0.4);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items:center ;
+     font-family: 'Water Brush', cursive;
+}
+.head-text1{
+    font-size: 4rem;
+    margin: 0.6rem;
+}
+.p-text1{
+font-size: 1.5rem;
+margin: 0.5rem;
+font-family: 'Lobster', cursive;
+}
+
+.btn{
+    background-color: #00a8ad;
+    color: white;
+    padding: 0.7rem;
+   width: 7rem;
+   margin: 1rem;
+}
+
+#services{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    margin: 150px auto;
+    width: 74rem;
+}
+
+.services-h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.cards-p{
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+.cards{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding: 1.3rem;
+}
+
+#about{
+    background: url(234.jpg) ;
+    height: 70vh;
+    background-size: cover;
+}
+.about div{
+    background-color: rgba(0, 0,0, 0.7);
+    height: 100%;
+}
+
+.about-h1{
+    color: white;
+    text-align: right;
+    padding:8rem 6rem 0 45rem ;
+    font-size: 4rem;
+    font-family: 'Topestry', cursive
+}
+
+.about-p{
+    color: white;
+    text-align: right;
+    padding:1rem 6rem 0 60rem ;
+    font-size: 1rem;
+    font-family: 'Topestry', cursive
+}
+
+.about-btn{
+    float: right;
+    margin: 1rem 6rem 0 0;
+    padding: 0.5rem;
+}
+
+.contact{
+    background: url(098.png) ;
+    height: 110vh;
+    background-size: cover;
+    height: 50rem;
+    width: 45rem;
+}
+
+.contact-h1{
+   
+    color: #00a8ad;
+    padding:3rem ;
+    font-size: 4rem;
+    font-family: 'Topestry', cursive
+}
+
+.form{
+    text-align: right;
+    margin-left: 55rem;
+   
+}
+
+input{
+    height: 3.5rem;
+    width: 25rem;
+    border: 10px solid #00a8ad ;
+}
+
+label{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Water Brush', cursive;
+}
+
+.f-h1{
+    background-color: #00a8ad;
+    color: white;
+    padding: 0.7rem;
+   width: 7rem;
+  margin-top: 1rem;
+}
+
+footer{
+    background-color: #00a8ad;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.1rem;
+}
